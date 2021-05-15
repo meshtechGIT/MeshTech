@@ -1,9 +1,6 @@
 enable  : true
-# title   : Offer From Me
-# subtitle: >
-#   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, <br> quasi dolores numquam dolor vero ex, tempora commodi repellendus quod laborum.
 item    :
-  - icon  : ion-ios-time-outline #flask-outline
+  - icon  : ion-ios-time-outline 
     title : Save Time
     description : >
       With our platform, you’ll save time by letting AI take over of you marketing reach and respond to leads so you never miss out any opportunities. 
@@ -17,18 +14,3 @@ item    :
     title : Friendly Support
     description : >
       Our support team is available every day to make sure that things runs smoothly. We’re here to help.
-
-  # - icon  : ion-ios-keypad-outline
-  #   title : Solid Support
-  #   description : >
-  #     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
-
-  # - icon  : ion-ios-barcode-outline
-  #   title : Simple Installation
-  #   description : >
-  #     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
-  
-  # - icon  : ion-ios-lightbulb-outline
-  #   title : Well documented.
-  #   description : >
-  #     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
