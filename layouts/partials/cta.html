@@ -3,7 +3,7 @@
 <section id="call-to-action">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <div class="block">
           {{ with .Site.Params.cta.title }}<h2 class="title wow fadeInDown" data-wow-delay=".3s"
             data-wow-duration="500ms">{{ . }}</h1>{{ end }}
@@ -13,6 +13,32 @@
               data-wow-delay=".7s" data-wow-duration="500ms">{{ .Site.Params.cta.btnText }}</a>
         </div>
       </div>
+      <div class="col-md-6 mb-8 mb-md-0">
+        <div class="block">
+            {{ with .Site.Data.newsletter.newsletterTitle }}<h2 class="subtitle wow fadeInDown"
+                data-wow-duration="500ms" data-wow-delay=".3s" style="padding-bottom: 25px;">{{ . }}</h2>{{ end }}
+            {{ with .Site.Data.newsletter.newsletterSubtitle }}<p class="subtitle-des wow fadeInDown"
+                data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+            <div class="contact-form">
+                <form method="POST" action="{{ .Site.Params.newsletterFormAction }}">
+                  <div class="row">
+                    <div class="col-lg-9">
+                      <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s" >
+                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" style="line-height: 38px;">
+                      </div>
+                    </div>
+                    <div class="col-lg-3" style="padding: 0; top: 0;">
+                      <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s" style="position:absolute; top: 0; left:0; margin-top: 0;">
+                        <button type="submit" id="contact-submit"
+                            class="btn btn-default btn-contact wow fadeInDown" style="margin-top:0" value="Send">Sign Up</button>
+                      </div>
+  
+                    </div> 
+                  </div> 
+                </form>
+            </div>
+        </div>
+    </div>
     </div>
   </div>
 </section>

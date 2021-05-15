@@ -80,6 +80,13 @@ title   = "QUESTIONS?"
 btnText = "Contact Us"
 btnURL  = "/contact"
 
+# Call to Action2
+[params.cta2]
+enable  = true
+title   = "Sign Up for Updates!"
+# content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+
+
 
 # Portfolio Section On Homepage
 #[params.portfolio]
