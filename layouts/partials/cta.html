@@ -15,12 +15,17 @@
       </div>
       <div class="col-md-6 mb-8 mb-md-0">
         <div class="block">
-            {{ with .Site.Data.newsletter.newsletterTitle }}<h2 class="subtitle wow fadeInDown"
+            <!-- {{ with .Site.Data.newsletter.newsletterTitle }}<h2 class="subtitle wow fadeInDown"
                 data-wow-duration="500ms" data-wow-delay=".3s" style="padding-bottom: 25px;">{{ . }}</h2>{{ end }}
             {{ with .Site.Data.newsletter.newsletterSubtitle }}<p class="subtitle-des wow fadeInDown"
-                data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+                data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }} -->
             <div class="contact-form">
-                <form method="POST" action="{{ .Site.Params.newsletterFormAction }}">
+              <iframe src="https://www.cognitoforms.com/f/lo2fZzURK0CSuLE4lKw8UQ?id=1"
+                style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless"
+                height="300" width="100%"></iframe>
+              <script src="https://www.cognitoforms.com/scripts/embed.js"></script>
+
+                <!-- <form method="POST" action="{{ .Site.Params.newsletterFormAction }}">
                   <div class="row">
                     <div class="col-lg-9">
                       <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s" >
@@ -35,7 +40,7 @@
   
                     </div> 
                   </div> 
-                </form>
+                </form> -->
             </div>
         </div>
     </div>
